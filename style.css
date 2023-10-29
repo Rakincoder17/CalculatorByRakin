@@ -1,0 +1,47 @@
+*{
+    background-color: #000000;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+form{
+    width: fit-content;
+    border: 0.5rem solid antiquewhite;
+}
+.screen{
+    border-bottom: 0.5rem solid antiquewhite;
+    display: flex;
+    flex-direction: column;
+    background-color: #484848;
+    color: antiquewhite;
+}
+#display, #result{
+    height: 3rem;
+    width: 20.4rem;
+}
+input{
+    height: 5rem;
+    width: 5rem;
+    background-color: #1b1b1b;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+.col2{
+    width: 10.3rem;
+}
+@media (max-width:360px){
+    input{
+        height: 3rem;
+        width: 3rem;
+        font-size: 2rem;
+    }
+    .col2{
+        width: 6.2rem;
+    }
+    #display, #result{
+        height: 3rem;
+        width: 12.4rem;
+    }
+}
